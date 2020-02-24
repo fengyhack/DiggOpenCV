@@ -4,7 +4,7 @@
 #include <opencv2/objdetect.hpp>
 #include <iostream>
 
-#pragma comment(lib,"opencv_world401d")
+#pragma comment(lib,"opencv_world420d")
 
 using namespace cv;
 using namespace std;
