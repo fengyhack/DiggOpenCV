@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <time.h>
 
-#pragma comment(lib,"opencv_world310d")
+#pragma comment(lib,"opencv_world420d")
 
 using namespace cv;
 using namespace std;

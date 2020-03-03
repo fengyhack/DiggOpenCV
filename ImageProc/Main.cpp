@@ -2,7 +2,7 @@
 #include <iostream>
 #include <cstring>
 
-#pragma comment(lib,"opencv_world310d")
+#pragma comment(lib,"opencv_world420d")
 
 using namespace cv;
 using namespace std;
@@ -33,7 +33,7 @@ int main(int argc, char** argv)
 //=======================================
 void ImageBlur(string imgFile)
 {
-	Mat srcImage = imread(imgFile, CV_LOAD_IMAGE_UNCHANGED);
+	Mat srcImage = imread(imgFile, IMREAD_UNCHANGED);
 	int rows = srcImage.rows;
 	int cols = srcImage.cols;
 
